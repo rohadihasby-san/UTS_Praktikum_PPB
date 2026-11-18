@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Hard shadow kertas -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M52,30 H120 A10,10 0 0 1 130,40 V132 A10,10 0 0 1 120,142 H52 A10,10 0 0 1 42,132 V40 A10,10 0 0 1 52,30 Z" />
+
+    <!-- Kertas putih -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeColor="#000000"
+        android:strokeLineJoin="round"
+        android:pathData="M46,24 H114 A10,10 0 0 1 124,34 V126 A10,10 0 0 1 114,136 H46 A10,10 0 0 1 36,126 V34 A10,10 0 0 1 46,24 Z" />
+
+    <!-- Penjepit teal -->
+    <path
+        android:fillColor="#00C2CB"
+        android:strokeWidth="4"
+        android:strokeColor="#000000"
+        android:strokeLineJoin="round"
+        android:pathData="M66,14 H94 A6,6 0 0 1 100,20 V28 A6,6 0 0 1 94,34 H66 A6,6 0 0 1 60,28 V20 A6,6 0 0 1 66,14 Z" />
+
+    <!-- Garis-garis kosong -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="4"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"
+        android:pathData="M54,62 H106 M54,82 H106 M54,102 H84" />
+
+    <!-- Badge kuning + tanda plus -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeWidth="4"
+        android:strokeColor="#000000"
+        android:pathData="M104,120 A16,16 0 1 0 136,120 A16,16 0 1 0 104,120 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="4"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"
+        android:pathData="M120,112 V128 M112,120 H128" />
+</vector>

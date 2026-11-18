@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Hard shadow (hitam, tanpa blur) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M24,14 H78 A10,10 0 0 1 88,24 V78 A10,10 0 0 1 78,88 H24 A10,10 0 0 1 14,78 V24 A10,10 0 0 1 24,14 Z" />
+
+    <!-- Kotak utama teal + border hitam -->
+    <path
+        android:fillColor="#00C2CB"
+        android:strokeWidth="4"
+        android:strokeColor="#000000"
+        android:strokeLineJoin="round"
+        android:pathData="M18,8 H72 A10,10 0 0 1 82,18 V72 A10,10 0 0 1 72,82 H18 A10,10 0 0 1 8,72 V18 A10,10 0 0 1 18,8 Z" />
+
+    <!-- Centang -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="8"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,46 L38,60 L62,28" />
+</vector>
